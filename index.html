@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Div Elements</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .data-point {
+            width: 20px;
+            height: 20px;
+            background-color: gray;
+            border: 1px solid black;
+            position: absolute;
+            transition: background-color 0.3s;
+        }
+    </style>
 </head>
 <body>
     <script src="script.js"></script>
